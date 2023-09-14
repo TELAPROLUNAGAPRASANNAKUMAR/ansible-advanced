@@ -3,4 +3,4 @@
   become: yes
   tasks:
   - name: print a messages
-    ansible.builtin.command: echo hello print the messages > /tmp/hello.txt
+    ansible.builtin.shell: echo hello print the messages > /tmp/hello.txt
